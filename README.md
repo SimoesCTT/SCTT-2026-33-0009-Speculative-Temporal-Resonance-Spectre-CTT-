@@ -1,4 +1,5 @@
 # SCTT-2026-33-0009: Speculative Temporal Resonance (Spectre-CTT)
+CVE-2026-SCTT-9999
 
 ## "The End of Speculative Trust"
 
