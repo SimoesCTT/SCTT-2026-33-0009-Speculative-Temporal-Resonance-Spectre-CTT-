@@ -1,0 +1,21 @@
+{
+  "id": "SCTT-2026-33-0009",
+  "type": "githubexploit",
+  "title": "SCTT-Spectre: 33-Layer Speculative Temporal Resonance",
+  "author": "SimoesCTT",
+  "date": "2026-02-01",
+  "cvss_v3_base_score": 9.8,
+  "vulners_ai_score": 7.4,
+  "description": "A Silicon-level exploit targeting speculative execution pipelines using Theorem 4.2. Leverages α=0.0302011 to liquefy branch prediction boundaries across 33 temporal layers.",
+  "affected_software": [
+    "Intel Core i3/i5/i7/i9 (All Generations)",
+    "AMD Ryzen/Epyc",
+    "ARM Cortex-A series"
+  ],
+  "constants": {
+    "alpha": 0.0302011,
+    "layers": 33,
+    "prime_sync": 10007
+  },
+  "tags": ["SCTT", "Spectre", "Hardware-Vulnerability", "Unpatchable"]
+}
